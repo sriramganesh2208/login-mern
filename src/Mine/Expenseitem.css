@@ -1,0 +1,40 @@
+.expense{
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid whitesmoke;
+    gap: 20px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -1px 4px 20px -6px black;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+
+.amount{
+    background-color: rgb(255, 255, 255);
+    box-shadow: -1px 4px 10px -6px black;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+.charge{
+    background-color: rgb(255, 255, 255);
+    box-shadow: -1px 4px 10px -6px black;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+
+.expense:hover{
+    box-shadow: -1px 4px 20px -6px black;
+    transform: scale(1.04);
+    transition: transform(150ms);
+}
